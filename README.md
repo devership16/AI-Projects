@@ -5,4 +5,5 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
 •	Parsing of the logical statement in CNF form and creating a knowledge base.
 •	Applying unification algorithm to clauses in the knowledge base to resolve the query to determine entailment.
 
+Language: Python
 
