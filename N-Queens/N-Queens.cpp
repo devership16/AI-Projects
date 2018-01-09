@@ -19,6 +19,7 @@ clock_t start;
 ifstream fin ("input.txt");
 ofstream fout("output.txt");
 
+//Helper function to display the nursery
 inline void shownur(string nur[]){
   for(int i=0;i<=n-1;i++){
     //cout<<nur[i]<<"\n";
@@ -27,7 +28,7 @@ inline void shownur(string nur[]){
     //cout<<"\n";
   return;
 }
-
+// Helper function to get random numbers within a range
 inline int getrand()
 {
     int random_num=0;
@@ -37,6 +38,7 @@ inline int getrand()
     random_num = low + (rand() % (int)(high - low + 1));
     return random_num;
 }
+//Helper function to calculate remaining space available 
 inline int rem_space(string nur[],int r,int c)
 {
   int ts=0,rem=0,k;
@@ -63,6 +65,7 @@ inline int rem_space(string nur[],int r,int c)
   }
   return rem;
 }
+//Helper function to find random lizard to move
 inline void rand_liz(string nur[])
 {
     int i=getrand();
@@ -76,6 +79,7 @@ inline void rand_liz(string nur[])
       cur_y=j;
   return;
 }
+//Helper function to find cell to place a lizard
 inline void rand_pos(string nur[])
 {
     int i=getrand();
@@ -90,6 +94,8 @@ inline void rand_pos(string nur[])
       next_y=j;
   return;
 }
+
+//Helper function to calculate probablity
 inline bool cal_prob(double t, double d) {
     if (d < 0)
         return true;
@@ -103,6 +109,7 @@ inline bool cal_prob(double t, double d) {
     return false;
 }
 
+//Helper function to check validity of a cell
 inline bool check(string arr[],int row,int col){
 
   //Left
@@ -146,6 +153,7 @@ inline bool check(string arr[],int row,int col){
   return true;
 }
 
+//Helper function to count conflicts given a cell coordinate 
 inline int cal_conflicts ( string arr[],int row,int col)
 {
 
@@ -194,6 +202,7 @@ inline int cal_conflicts ( string arr[],int row,int col)
     return conflicts;
 }
 
+//Helper function to check for Tree(obstruction)
 inline int check_tree(string nur[],int r ,int c)
 {
   int i;
@@ -204,6 +213,7 @@ inline int check_tree(string nur[],int r ,int c)
   return 0;
 }
 
+//Function to recursively place lizards in the board using Depth First Search
 bool dfs(string nur[],int q,int r,int c){
 
   int k=0;
@@ -252,6 +262,8 @@ bool dfs(string nur[],int q,int r,int c){
   return false;
 }
 
+
+//Function to recursively place lizards in the board using Breadth First Search
 bool bfs(string nur[],int q,int r,int c ){
 
   if(q==liz){
@@ -302,6 +314,7 @@ inline int cal_energy(string arr[])
   return total;
 }
 
+//Function to recursively place lizards in the board using Simulated Anneleaing(Heuristic Approach)
 bool sa(string nur[])
 {
   int i=0,j=0;
@@ -387,7 +400,7 @@ inline void init_nur(string arr[])
 
 /***********************************Main********************************/
 
-
+//Driver Function
 int main(){
 
   start=clock();
