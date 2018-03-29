@@ -27,7 +27,9 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
    Programming Language: Python
 
 5. Built a Part-of-Speech Tagger for machine translation of English(89.94% accuracy), Hindi(92.41% accuracy), and Chinese (86.55% accuracy) languages.
+    
     • Developed a Hidden Markov Model for estimating the transition and emission probabilities. 
+    
     • Viterbi Decoding to generate the most likely sequence of tags for word sentences.
    
    Programming Language: Python
