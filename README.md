@@ -21,7 +21,7 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
    Programming Language: CPP
 
 4. Collegiate Football Predictions:
-    A Neural-Net model to predict football winning bets using tensor flow, Pandas, and Numpy.  
-    •   Utils functions: To determine best newtork architecture and paramters to get optimal MSE. 
+    A Neural-Net model to predict football winning bets using tensor flow and Numpy.  
+    •   Utils functions: To determine the best network architecture and parameters to get an optimal MSE. 
    
    Programming Language: Python
