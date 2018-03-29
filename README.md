@@ -19,3 +19,7 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
    Implementation of global search strategies like Depth First Search, Breadth First Search and Simulated Annealing to place K animals in a N * N nursery with obstructions.
    
    Programming Language: CPP
+
+4. Collegiate Football Predictions:
+    A Neural-Net model to predict football winning bets using tensor flow, Pandas, and Numpy.  
+    •   Utils functions: To determine best newtork architecture and paramters to get optimal MSE. 
