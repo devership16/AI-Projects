@@ -5,6 +5,7 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
     Agent to implement first-order logic inference engine using resolution and unification algorithms.
     
     •   Parsing of the logical statement in CNF form and creating a knowledge base.
+
     •	Applying unification algorithm to clauses in the knowledge base to resolve the query to determine entailment.
     
     Programming Language: Python
@@ -28,7 +29,8 @@ Projects to implement basic AI concepts like Basic Search Functions, Game Playin
 
 5. Built a Part-of-Speech Tagger for machine translation of English(89.94% accuracy), Hindi(92.41% accuracy), and Chinese (86.55% accuracy) languages.
     
-    • Developed a Hidden Markov Model for estimating the transition and emission probabilities. 
+    • Developed a Hidden Markov Model for estimating the transition and emission probabilities.
+ 
     • Viterbi Decoding to generate the most likely sequence of tags for word sentences.
    
    Programming Language: Python
