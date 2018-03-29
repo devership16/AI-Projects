@@ -1,0 +1,6 @@
+Collegiate Football Predictions: A Neural-Net model to predict football winning bets using tensor flow and Numpy.
+• Utils functions: To determine the best network architecture and parameters to get an optimal MSE.
+
+Programming Language: Python
+
+P.S.: Work in progress.
