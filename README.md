@@ -1,5 +1,5 @@
 # AI-Projects
-Projects to implement basic AI concepts like Basic Search Functions, Game Playing Bot, FOL Inference Engine
+Projects to implement various Machine Learning algorithms.
 
 1. First Order Logic Inference Engine: 
     Agent to implement first-order logic inference engine using resolution and unification algorithms.
