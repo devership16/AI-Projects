@@ -2,10 +2,6 @@ Corpus for Homework 2, USC CSCI 544, Spring 2018
 
 Adapted from the Deceptive Opinion Spam Corpus v1.4
 
-
-This adaptation contains the full text of the hotel reviews from the original corpus, together with their truthful/deceptive and positive/negative labels. It does not retain the original directory structure and does not preserve an indication of the hotel names. It adds unique identifiers to the reviews, and splits the corpus into a development set (20%), training set (60%), and test set (20%). The adaptation was created by Ron Artstein, artstein@ict.usc.edu , for use in the course CSCI 544 Applied Natural Language Processing at the University of Southern California.
-
-
 The original corpus can be found at http://myleott.com/op_spam/
 
 The original license applies (see below).
