@@ -19,7 +19,7 @@ Projects to implement various Machine Learning algorithms.
     
     Achieved a mean F1 score of Pos F1=0.94, Neg F1=0.94, True F1=0.88, Fake F1=0.89, Mean F1 = 0.9124
 
-    Programming Langauge: Python
+    Programming Language: Python
     
 3. Collegiate Football Predictions:
     A Neural-Net model to predict football winning bets using tensor flow and Numpy.  
